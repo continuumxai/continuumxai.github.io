@@ -2,38 +2,128 @@
 <html>
 <head>
   <title>ContinuumXAI</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0b1f3a, #1d4f91);
+      color: white;
+      padding: 60px 80px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 48px;
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 20px;
+      max-width: 800px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 50px;
+    }
+
+    .section-title {
+      font-size: 32px;
+      margin-bottom: 25px;
+      color: #1d4f91;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #0b1f3a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
 </head>
 
-<body style="font-family: Arial; margin: 40px;">
+<body>
 
-<h1>ContinuumXAI</h1>
+<header>
+  <h1>ContinuumXAI</h1>
 
-<p>
-Advancing longitudinal and mechanistic AI
-for precision medicine across disease continuums.
-</p>
+  <p>
+    Advancing longitudinal and mechanistic AI
+    for precision medicine across disease continuums.
+  </p>
+</header>
 
-<h2>Research Areas</h2>
+<div class="container">
 
-<ul>
-  <li>Disease trajectory modeling</li>
-  <li>Explainable AI (XAI)</li>
-  <li>Mechanistic AI reasoning</li>
-  <li>Multimodal clinical AI</li>
-  <li>Biomedical ontologies and knowledge graphs</li>
-  <li>Precision interception medicine</li>
-</ul>
+  <h2 class="section-title">Research Areas</h2>
 
-<h2>Projects</h2>
+  <div class="card-grid">
 
-<ul>
-  <li>PanOnto</li>
-  <li>PanKG</li>
-  <li>PRAISE</li>
-  <li>KAIROS</li>
-  <li>HAO</li>
-  <li>VaxMap</li>
-</ul>
+    <div class="card">
+      <h3>Disease Trajectories</h3>
+      <p>Longitudinal AI modeling of disease progression and transition states.</p>
+    </div>
+
+    <div class="card">
+      <h3>Explainable AI</h3>
+      <p>Mechanistic and interpretable AI for translational medicine.</p>
+    </div>
+
+    <div class="card">
+      <h3>Knowledge Graphs</h3>
+      <p>Biomedical ontologies and graph reasoning for precision medicine.</p>
+    </div>
+
+    <div class="card">
+      <h3>Multimodal AI</h3>
+      <p>Integration of imaging, EHR, omics, and clinical text.</p>
+    </div>
+
+  </div>
+
+  <h2 class="section-title" style="margin-top:70px;">Projects</h2>
+
+  <div class="card-grid">
+
+    <div class="card"><h3>PanOnto</h3></div>
+    <div class="card"><h3>PanKG</h3></div>
+    <div class="card"><h3>PRAISE</h3></div>
+    <div class="card"><h3>KAIROS</h3></div>
+    <div class="card"><h3>HAO</h3></div>
+    <div class="card"><h3>VaxMap</h3></div>
+
+  </div>
+
+</div>
+
+<footer>
+  © ContinuumXAI
+</footer>
 
 </body>
 </html>
