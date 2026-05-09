@@ -24,5 +24,6 @@ Advancing longitudinal and mechanistic AI for precision medicine across disease 
 
 ## Contact
 
-Jianfu Li  
-Mayo Clinic Department of Artificial Intelligence and Informatics
+Jianfu Li
+Department of Artificial Intelligence and Informatics
+Mayo Clinic
