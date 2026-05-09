@@ -17,7 +17,8 @@ Advancing longitudinal and mechanistic AI for precision medicine across disease 
 - PanKG
 - PRAISE
 - KAIROS
-- Organ-Age Mosainc
+- PROMETHEUS
+- Organ-Age Mosaic
 - HAO
 - VaxMap
 
